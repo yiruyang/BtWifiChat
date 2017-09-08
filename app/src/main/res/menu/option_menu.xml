@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/discover_bt_device"
+        android:title="@string/chat_by_bluetooth"
+        android:icon="@mipmap/discover"
+        />
+    <item
+        android:id="@+id/discover_wifi"
+        android:title="@string/chat_by_wifi"
+        android:icon="@mipmap/discover"
+        />
+
+</menu>

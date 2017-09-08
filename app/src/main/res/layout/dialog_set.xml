@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    >
+
+    <EditText
+        android:id="@+id/dialog_set_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="@string/name"
+        android:background="@drawable/my_edit_view"/>
+
+    <EditText
+        android:id="@+id/dialog_set_msg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="@string/message"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/my_edit_view"/>
+
+</LinearLayout>

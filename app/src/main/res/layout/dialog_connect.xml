@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+
+    <EditText
+        android:id="@+id/dialog_ip"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="@string/hint_text"
+        android:background="@drawable/my_edit_view"/>
+
+    <EditText
+        android:id="@+id/dialog_port"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="@string/port_number"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/my_edit_view"/>
+</LinearLayout>

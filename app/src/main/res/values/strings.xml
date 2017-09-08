@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">BtWifiChat</string>
+
+    <!--Options Menu-->
+    <string name="find_device">连接蓝牙设备</string>
+    <string name="open_bluetooth">打开蓝牙</string>
+    <string name="close_bluetooth">关闭蓝牙</string>
+    <string name="close_connect">断开连接</string>
+    <string name="connect">连接</string>
+    <string name="discover_wifi">搜索wifi</string>
+    <string name="chat_by_bluetooth">蓝牙通信</string>
+    <string name="chat_by_wifi">Wifi通信</string>
+
+
+    <!--DeviceListActivity-->
+    <string name="title">请稍等</string>
+    <string name="scanning">正在扫描蓝牙设备...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">已配对设备</string>
+    <string name="title_other_devices">其它设备</string>
+    <string name="button_scan">搜索蓝牙设备</string>
+    <string name="scan_over">扫描完成</string>
+    <string name="device_list">蓝牙列表</string>
+
+    <!--activity network list-->
+    <string name="title_paired_network">当前连接的wifi</string>
+    <string name="title_other_network">其它wifi</string>
+    <string name="button_scan_network">扫描wifi</string>
+    <string name="network_title">Wifi列表</string>
+
+    <!--BluetoothActivity-->
+    <string name="connecting">正在连接...</string>
+    <string name="connect_successful">连接成功</string>
+    <string name="connect_failed">连接失败</string>
+    <string name="bluetooth_opened">蓝牙已经打开</string>
+
+    <!--TipTool-->
+    <string name="ok">好的</string>
+
+    <!--activity_bluetooth-->
+    <string name="send">发送</string>
+
+    <!--AlertDialog-->
+    <string name="dialog_title">提示</string>
+    <string name="dialog_message">连接成功</string>
+    <string name="dialog_positive">确定</string>
+    <string name="dialog_negative">取消</string>
+
+    <!--activity_wifi-->
+    <string name="send_btn">send</string>
+
+    <!--server ip-->
+    <string name="server_ip">192.168.4.1</string>
+
+    <!--dialog_connect-->
+    <string name="hint_text"> 服务器IP地址</string>
+    <string name="port_number"> 端口号</string>
+
+    <!--menu-->
+
+
+    <!--activity control-->
+    <string name="wifi">WIFI</string>
+    <string name="bluetooth">bluetooth</string>
+    <string name="control">control</string>
+    <string name="speed">速度</string>
+    <string name="bt_text">蓝牙</string>
+    <string name="wifi_text">Wifi</string>
+    <string name="open_bt_first">请先打开蓝牙</string>
+    <string name="open_wifi_first">请先打开wifi</string>
+    <string name="not_connected_device">您还没有已连接的蓝牙设备</string>
+    <string name="message_not_null">发送的数据不能为空</string>
+    <string name="unsupport_wifi">该设备不支持wifi</string>
+    <string name="receive_successful">消息接收成功</string>
+    <string name="no_connect_device">请先选择使用蓝牙或Wifi通信</string>
+    <string name="connect_exception">连接出现异常，请重新连接</string>
+    <string name="receive_message">来自蓝牙</string>
+    <string name="receive_message_from_wifi">来自wifi</string>
+
+
+    <!--dialog_set-->
+    <string name="name">名称</string>
+    <string name="message">消息</string>
+
+    <!--dialog_pwd-->
+    <string name="input_pwd">请输入wifi密码</string>
+    <string name="password">Password</string>
+
+    <!--bluetoothChatService-->
+    <string name="btDevice_connect_failed">连接断开，请重新连接</string>
+
+    <!--sqlite-->
+    <string name="create_success">数据库创建成功</string>
+    <string name="table_name">Button</string>
+
+    <!--receiver-->
+    <string name="network_disconnected">wifi连接已断开</string>
+    <string name="network_connected">wifi已连接</string>
+    <string name="wifi_disabled">系统关闭wifi</string>
+    <string name="wifi_enabled">系统开启wifi</string>
+
+    <!--activity head-->
+    <string name="back">Back</string>
+</resources>

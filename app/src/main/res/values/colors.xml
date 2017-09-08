@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pink">#ee4b62</color>
+    <color name="seekbar_second_bg">#f00</color>
+    <color name="btn_bg_blue">#1e90ff</color>
+    <color name="btn_bg_white">#fff</color>
+    <color name="btn_bg_grey">#dcdcdc</color>
+    <color name="btn_bg_black">#000</color>
+    <color name="light_sky_blue">#87cefa</color>
+    <color name="snow">#fffafa</color>
+    <color name="gray">#666</color>
+
+</resources>
